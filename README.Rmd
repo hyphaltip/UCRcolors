@@ -1,0 +1,54 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figure/",
+  fig.height = 1
+)
+```
+
+# UCR Brand Color Palettes
+
+[![Build Status](https://travis-ci.org/hyphaltip/UCRcolors.png)](https://travis-ci.org/hyphaltip/UCRcolors)  
+![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCRcolors)
+
+![](UCR.png)
+
+Want to make plots in the [UCR color branding](https://brand.ucr.edu/)?
+
+## Installation
+
+```r
+install.packages("UCRcolors")
+```
+
+__Or the development version__
+
+```r
+devtools::install_github("hyphaltip/UCRcolors")
+```
+
+## Usage
+
+```{r, palettes_dummy}
+library("UCRcolors")
+
+# See all palettes
+names(UCR_palettes)
+```
+
+## Palettes
+
+### UCR main
+
+```{r, UCRmain}
+ucr_palette("UCRmain")
+```
