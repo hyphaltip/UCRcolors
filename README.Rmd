@@ -17,8 +17,8 @@ knitr::opts_chunk$set(
 
 # UCR Brand Color Palettes
 
-[![Build Status](https://travis-ci.org/hyphaltip/UCRcolors.png)](https://travis-ci.org/hyphaltip/UCRcolors)  
-![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCRcolors)
+[![Build Status](https://travis-ci.org/stajichlab/UCcolors.png)](https://travis-ci.org/stajichlab/UCcolors)  
+![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCcolors)
 
 ![](UCR.png)
 
@@ -27,19 +27,19 @@ Want to make plots in the [UCR color branding](https://brand.ucr.edu/)?
 ## Installation
 
 ```r
-install.packages("UCRcolors")
+install.packages("UCcolors")
 ```
 
 __Or the development version__
 
 ```r
-devtools::install_github("hyphaltip/UCRcolors")
+devtools::install_github("stajichlab/UCcolors")
 ```
 
 ## Usage
 
 ```{r, palettes_dummy}
-library("UCRcolors")
+library("UCcolors")
 
 # See all palettes
 names(UCR_palettes)

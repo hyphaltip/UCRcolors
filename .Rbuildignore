@@ -1,0 +1,12 @@
+UCR.png
+.travis.yml
+Makefile
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+screenshots/
+README.md
+README.html
+
+^cran-comments\.md$
+^codemeta\.json$

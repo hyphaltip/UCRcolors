@@ -1,0 +1,17 @@
+Package: UCcolors
+Title: UC Riverside Colors, Palette Generator
+Description: Palettes generated for UCR and UC colors
+Date: 2022-10-02
+Version: 0.0.1
+Authors@R: c(person("Stajich", "Jason", role = c("aut", "cre"),
+    email = "jasonstajich.phd@gmail.com", comment = c(ORCID = "0000-0002-7591-0020")))
+
+Depends:
+    R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Suggests:
+    ggplot2
+URL: https://github.com/stajichlab/UCcolors
+BugReports: https://github.com/stajichlab/UCcolors/issues
+RoxygenNote: 6.0.1
