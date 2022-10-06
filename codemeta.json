@@ -1,0 +1,68 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "UCcolors",
+  "description": "Palettes generated for UC Riverside brand colors.",
+  "name": "UCcolors: UC Riverside Colors Palette Generator",
+  "codeRepository": "https://github.com/stajichlab/UCcolors",
+  "issueTracker": "https://github.com/stajichlab/UCcolors/issues",
+  "datePublished": "2022-10-04",
+  "license": "https://spdx.org/licenses/GPL-3.0-or-later",
+  "version": "0.0.1",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "4.2.1",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.2.1 (2022-06-23)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Central R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Stajich",
+      "familyName": "Jason",
+      "email": "jasonstajich.phd@gmail.com",
+      "@id": "https://orcid.org/0000-0002-7591-0020"
+    },
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Stajich",
+    "familyName": "Jason",
+    "email": "jasonstajich.phd@gmail.com",
+    "@id": "https://orcid.org/0000-0002-7591-0020"
+  },
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": "3.0"
+    }
+  ],
+  "contIntegration": "https://travis-ci.org/stajichlab/UCcolors",
+  "releaseNotes": "https://github.com/stajichlab/UCcolors/blob/master/NEWS",
+  "readme": "https://github.com/stajichlab/UCcolors/blob/master/README.md",
+}
