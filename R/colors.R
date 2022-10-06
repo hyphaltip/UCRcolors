@@ -57,8 +57,8 @@ UC_palettes <- list(
 #' uc_palette("UCOP1")
 #' uc_palette("UCLA2", 3)
 
-uc_palette <- function(name, n) {
-  
+uc_palette <- function(name, n, type = c("discrete", "continuous")) {
+  type <- match.arg(type)
   
   pal <- UC_palettes[[name]]
   if (is.null(pal))
@@ -68,12 +68,14 @@ uc_palette <- function(name, n) {
     n <- length(pal)
   }
   
-  if (n > length(pal)) {
+  if (type == "discrete" && n > length(pal)) {
     stop("Number of requested colors greater than what palette can offer")
   }
   
-  out <- pal[1:n]
-  
+  out <- switch(type,
+                continuous = grDevices::colorRampPalette(pal)(n),
+                discrete = pal[1:n]
+  )
   structure(out, class = "palette", name = name)
 }
 
