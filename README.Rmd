@@ -41,13 +41,13 @@ devtools::install_github("stajichlab/UCcolors")
 library("UCcolors")
 
 # See all palettes
-names(UCR_palettes)
+names(UC_palettes)
 ```
 
 ## Palettes
 
 ### UCR main
 
-```{r, UCRmain}
-ucr_palette("UCRmain")
+```{r, Riverside1}
+uc_palette("Riverside1")
 ```
