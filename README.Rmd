@@ -20,9 +20,8 @@ knitr::opts_chunk$set(
 [![Build Status](https://travis-ci.org/stajichlab/UCcolors.png)](https://travis-ci.org/stajichlab/UCcolors)  
 ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCcolors)
 
-![](UCR.png)
 
-Want to make plots in the [UCR color branding](https://brand.ucr.edu/)?
+Want to make plots in color schemes of various University of California campus brand colors?
 
 ## Installation
 
