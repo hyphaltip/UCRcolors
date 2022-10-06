@@ -1,4 +1,6 @@
 Berkeley: https://brand.berkeley.edu/colors/
+Davis: https://marketingtoolbox.ucdavis.edu/brand-guide/colors
+Irvine: https://brand.uci.edu/master-branding/color-palette/
 Los Angeles: https://brand.ucla.edu/identity/colors
 Merced: https://brand.ucmerced.edu/logos-elements/colors
 Riverside: https://brand.ucr.edu/ucr-colors
