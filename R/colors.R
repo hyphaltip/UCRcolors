@@ -6,20 +6,20 @@
 UC_palettes <- list(
     Berkeley1 = c("#003262", "#3B7EA1", "#FDB515", "#C4820E"),
     Berkeley2 = c("#D9661F", "#EE1F60", "#ED4E33", "#6C3302", "#DDD5C7", "#00B0DA", "#00A598", "#46535E", "#B9D3B6", "#CFDD45", "#859438", "#584F29"),
-    Davis1    = c("#022851", "FFBF00"),
+    Davis1    = c("#022851", "#FFBF00"),
     Davis2    = c("#6FCFEB", "#00B2E3", "#0047BA", "#003A5D", "#03F9E6", "#00C4B3", "#008EAA", "#00524C", "#AADA91", "#6CCA98", "#3DAE2B", "#266041",
-                  "#FFFF3B", "#FFDC00", " #F18A00", "#8A532F", "#FF8189", "#F93549", "#C10230", "#79242F", "#F095CD", "#C6007E", "#76236C", "#481268"),
+                  "#FFFF3B", "#FFDC00", "#F18A00", "#8A532F", "#FF8189", "#F93549", "#C10230", "#79242F", "#F095CD", "#C6007E", "#76236C", "#481268"),
     Irvine1   = c("#0064A4", "#FFD200"),
     Irvine2   = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f78d2d", "#f7eb5f", "#555759", "#7ab800"),
     IrvineHealth = c("#b71234", "#7c109a", "#00b0ca", "#7ab800", "#fecb00"),
     UCLA1 = c("#2774AE", "#FFD100"),
-    UCLA2 = c("##FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#8237FF", "#000000"),
+    UCLA2 = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#8237FF", "#000000"),
     Merced1 = c("#002856", "#DAA900"),
     Merced2 = c("#0091b3", "#ffbf3c", "#005487", "#5b5b5b", "#E5E5E5", "#EFEFEF"),
     Merced3 = c("#6ba43a", "#f18a00", "#99d9d9"),
     Riverside1 = c("#003DA5", "#FFB81C"),
     Riverside2 = c("#C1C6C8", "#919D9D", "#009CDE","#FED141", "#A9C47F", "#78BE20","#FF671F","#E4002B"),
-    UCSB1  = c("#003660","#FEBC11", "##111517", "#DCE1E5", "#09847A"),
+    UCSB1  = c("#003660","#FEBC11", "#111517", "#DCE1E5", "#09847A"),
     UCSB2  = c("#047C91","#6D7D33", "#EF5645", "#DCD6CC", "#C9BF9D", "#9CBEBE"),
     UCSC1  = c("#003c6c", "#fdc700"),
     UCSC2  = c("#006aad", "#13a5dc","#007988", "#f29813", "#ffbf00", "#93c02d", "#da216d"),
@@ -27,7 +27,7 @@ UC_palettes <- list(
     UCSD2 = c("#00C6D7", "#6E963B", "#F3E500", "#FC8900"),
     UCOP1  = c("#1295D8", "#FFB511"),
     UCOP2  = c("#005581","#72CDF4","#FFD200", "#FFE552"),
-    UCOP3  = c("#FF6E1B","#FF8F28","#E44C9A", "#FEB2E0", "#00778B", "#00A3AD","#7C7E7F","#8F8884","#BEB6AF","#DBDSCD")
+    UCOP3  = c("#FF6E1B","#FF8F28","#E44C9A", "#FEB2E0", "#00778B", "#00A3AD","#7C7E7F","#8F8884","#BEB6AF","#DBD5CD")
 )
 
 #' A University of California palette generator
@@ -91,5 +91,5 @@ print.palette <- function(x, ...) {
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
   
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "Lato", col = "#32373D")
+  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif", col = "#32373D")
 }
