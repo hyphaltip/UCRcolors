@@ -11,3 +11,4 @@ README.html
 ^codemeta\.json$
 .github
 ^.*\.log$
+^\.github$
