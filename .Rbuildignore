@@ -1,4 +1,3 @@
-UCR.png
 .travis.yml
 Makefile
 ^.*\.Rproj$
@@ -10,3 +9,5 @@ README.html
 
 ^cran-comments\.md$
 ^codemeta\.json$
+.github
+^.*\.log$
