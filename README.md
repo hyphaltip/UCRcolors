@@ -241,3 +241,25 @@ lapply(names(UC_palettes),uc_palette)
 #> attr(,"name")
 #> [1] "UCOP3"
 ```
+
+## Sources for colors
+
+# Berkeley: <https://brand.berkeley.edu/colors/>
+
+# Davis: <https://marketingtoolbox.ucdavis.edu/brand-guide/colors>
+
+# Irvine: <https://brand.uci.edu/master-branding/color-palette/>
+
+# Los Angeles: <https://brand.ucla.edu/identity/colors>
+
+# Merced: <https://brand.ucmerced.edu/logos-elements/colors>
+
+# Riverside: <https://brand.ucr.edu/ucr-colors>
+
+# Santa Barbara: <https://brand.ucsb.edu/visual-identity/color>
+
+# Santa Cruz: <https://communications.ucsc.edu/visual-design/color/>
+
+# San Diego: <https://brand.ucsd.edu/logos-and-brand-elements/color-palette/index.html>
+
+# Office of President: <https://brand.universityofcalifornia.edu/guidelines/color.html>

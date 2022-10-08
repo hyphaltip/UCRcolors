@@ -82,6 +82,7 @@ uc_palette <- function(name, n, type = c("discrete", "continuous")) {
 #' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
+
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
