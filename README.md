@@ -2,9 +2,13 @@
 
 # UC Brand Color Palettes
 
+<!-- badges: start -->
+
 [![Build
 Status](https://travis-ci.org/stajichlab/UCcolors.png)](https://travis-ci.org/stajichlab/UCcolors)  
 ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCcolors)
+[![R-CMD-check](https://github.com/stajichlab/UCcolors/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stajichlab/UCcolors/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 Want to make plots in color schemes of various University of California
 campus brand colors?
