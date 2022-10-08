@@ -41,8 +41,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
-          extra-packages: any::roxygen2
+          extra-packages: any::rcmdcheck any::roxygen2
           needs: roxygen2
           needs: check
 
