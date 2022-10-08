@@ -46,8 +46,19 @@ names(UC_palettes)
 
 ## Palettes
 
-### UCR main
-
-```{r, Riverside1}
+```{r, Riverside}
 uc_palette("Riverside1")
+uc_palette("UCLA1")
+
+```
+
+### secondary color set
+
+```{r, secondaryPal}
+uc_palette("Riverside2")
+uc_palette("UCLA2")
+```
+### test all
+```{r, testall}
+lapply(names(UC_palettes),uc_palette)
 ```
