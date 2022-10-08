@@ -242,6 +242,13 @@ lapply(names(UC_palettes),uc_palette)
 #> [1] "UCOP3"
 ```
 
+### continuous colors
+
+``` r
+#pal = uc_palette("UCLA2",21,type="continuous")
+#image(volcano,col=pal)
+```
+
 ## Sources for colors
 
 # Berkeley: <https://brand.berkeley.edu/colors/>

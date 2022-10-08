@@ -62,6 +62,11 @@ uc_palette("UCLA2")
 ```{r, testall}
 lapply(names(UC_palettes),uc_palette)
 ```
+### continuous colors
+```{r, continuous}
+#pal = uc_palette("UCLA2",21,type="continuous")
+#image(volcano,col=pal)
+```
 
 ## Sources for colors
 # Berkeley: https://brand.berkeley.edu/colors/

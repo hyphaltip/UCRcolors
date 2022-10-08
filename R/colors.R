@@ -1,6 +1,6 @@
 #' Complete list of palettes
 #'
-#' Use \code{\link{wes_palette}} to construct palettes of desired length.
+#' Use \code{\link{uc_palette}} to construct palettes of desired length.
 #'
 #' @export
 UC_palettes <- list(
@@ -50,6 +50,7 @@ UC_palettes <- list(
 #'   \code{UCSD1}, \code{UCSC1}, 
 #'   \code{UCOP1}, \code{UCOP2}, \code{UCOP3},
 #'   @importFrom graphics rgb rect par image text
+#' @param type Either discrete or continuous range of colors
 #' @return A vector of colours.
 #' @export
 #' @keywords colors
@@ -79,10 +80,15 @@ uc_palette <- function(name, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", name = name)
 }
 
+#' print the palettes
+#' 
+#' Will display the entire palette as a visible color swatch
+#' 
 #' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
-
+#' @param x is name of palette
+#' @param ... is optional option indicating max number of colors to return
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
