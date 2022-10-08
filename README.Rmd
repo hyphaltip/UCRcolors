@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# UCR Brand Color Palettes
+# UC Brand Color Palettes
 
 [![Build Status](https://travis-ci.org/stajichlab/UCcolors.png)](https://travis-ci.org/stajichlab/UCcolors)  
 ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/UCcolors)

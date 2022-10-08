@@ -1,6 +1,6 @@
 Package: UCcolors
-Title: UC Riverside Colors, Palette Generator
-Description: Palettes generated for UCR and UC colors
+Title: University of California Colors, Palette Generator
+Description: Palettes generated for UC colors
 Date: 2022-10-02
 Version: 0.0.1
 Authors@R: c(person("Stajich", "Jason", role = c("aut", "cre"),

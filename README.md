@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# UCR Brand Color Palettes
+# UC Brand Color Palettes
 
 [![Build
 Status](https://travis-ci.org/stajichlab/UCcolors.png)](https://travis-ci.org/stajichlab/UCcolors)  
